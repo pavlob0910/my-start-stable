@@ -55,13 +55,8 @@ namespace MyStarStable.Common
 		{
 			AuthorizationTokenId = tokenId;
 			AuthorizationToken = token;
-
-//			#if DEBUG
-//			BaseUrl = "http://dev02.dev.int.starstable.com:7301/"; //...
-//			#else
-			BaseUrl = "https://hiddenhorse.starstable.com/";
-//			#endif
-			TimeoutSeconds = 60; //60 sekunders timeout?
+			BaseUrl = "http://dev.test.com/";
+			TimeoutSeconds = 60;
 			Retries = 3;
 		}
 
