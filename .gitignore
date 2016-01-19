@@ -1,0 +1,13 @@
+*.vspscc
+/TestResults/
+StyleCop.Cache
+*.user
+/*.vssscc
+/packages/
+!packages/repositories.config
+**/FakesAssemblies/
+*.userprefs
+*.suo
+bin
+obj
+Components/

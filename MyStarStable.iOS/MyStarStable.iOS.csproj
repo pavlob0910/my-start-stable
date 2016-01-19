@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{5920E47E-4093-418D-A71C-43C7A9068C70}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyStarStable.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>MyStarStableiOS</AssemblyName>
+    <NuGetPackageImportStamp>23b4c014</NuGetPackageImportStamp>
+    <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n>
+    </MtouchI18n>
+    <CodesignKey>iPhone Developer: Andreas Kviby (24F457Q368)</CodesignKey>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Dropbox\Public\Starstable</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>True</MtouchDebug>
+    <CodesignKey>iPhone Developer: Chunji Li (M335M8DE2S)</CodesignKey>
+    <MtouchArch>ARMv7</MtouchArch>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n>
+    </MtouchI18n>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchProfiling>true</MtouchProfiling>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Dropbox\Public\Starstable</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution: Chunji Li (9R6LGVEM2G)</CodesignKey>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n>
+    </MtouchI18n>
+    <BuildIpa>True</BuildIpa>
+    <IpaPackageName>starstable.ipa</IpaPackageName>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\..\Dropbox\Public\Starstable</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution: 10FINGERS AB</CodesignKey>
+    <BuildIpa>True</BuildIpa>
+    <MtouchSdkVersion>8.4</MtouchSdkVersion>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n>
+    </MtouchI18n>
+    <CodesignProvision>52caecc6-e884-4e69-a3d8-d45681d1452c</CodesignProvision>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <IpaPackageName>starstable.ipa</IpaPackageName>
+    <IpaMetadata>Info.plist</IpaMetadata>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>..\..\Dropbox\Public\Starstable</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution: Star Stable Entertainment AB (BWS92J4LSK)</CodesignKey>
+    <MtouchSdkVersion>8.1</MtouchSdkVersion>
+    <MtouchExtraArgs>
+    </MtouchExtraArgs>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n>
+    </MtouchI18n>
+    <CodesignProvision>43a53386-f278-410e-bd21-1e7f6e6af73c</CodesignProvision>
+    <BuildIpa>True</BuildIpa>
+    <IpaPackageName>
+    </IpaPackageName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BTProgressHUD\BTProgressHUD.cs" />
+    <Compile Include="BTProgressHUD\NSObjectExtensions.cs" />
+    <Compile Include="BTProgressHUD\ProgressHUD.cs" />
+    <Compile Include="BTProgressHUD\Ring.cs" />
+    <Compile Include="BTProgressHUD\XHUD.cs" />
+    <Compile Include="CalendarViewController.cs" />
+    <Compile Include="CalendarViewController.designer.cs">
+      <DependentUpon>CalendarViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UITextDelegates.cs" />
+    <Compile Include="Facebook_iOS.cs" />
+    <Compile Include="FMCalendar\CalendarDayView.cs" />
+    <Compile Include="FMCalendar\FMCalendar.cs" />
+    <Compile Include="FMCalendar\MonthGridView.cs" />
+    <Compile Include="HMAC256_iOS.cs" />
+    <Compile Include="ControllerKeyboardHandler.cs" />
+    <Compile Include="ModalPickerViewController\CustomPickerModel.cs" />
+    <Compile Include="ModalPickerViewController\ModalPickerAnimatedDismissed.cs" />
+    <Compile Include="ModalPickerViewController\ModalPickerAnimatedTransitioning.cs" />
+    <Compile Include="ModalPickerViewController\ModalPickerTransitionDelegate.cs" />
+    <Compile Include="ModalPickerViewController\ModalPickerViewController.cs" />
+    <Compile Include="NetworkTester_iOS.cs" />
+    <Compile Include="Reachability.cs" />
+    <Compile Include="ScrollExtensions.cs" />
+    <Compile Include="StringExtensions.cs" />
+    <Compile Include="LoginViewController.cs" />
+    <Compile Include="LoginViewController.designer.cs">
+      <DependentUpon>LoginViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewExtensions.cs" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Info.plist">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\sv.lproj\MainStoryboard.strings" />
+    <BundleResource Include="Resources\en.lproj\MainStoryboard.strings">
+      <SubType>Designer</SubType>
+    </BundleResource>
+    <Compile Include="MailTableCell.cs" />
+    <Compile Include="MailTableCell.designer.cs">
+      <DependentUpon>MailTableCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailViewController.cs" />
+    <Compile Include="MailViewController.designer.cs">
+      <DependentUpon>MailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailMessageViewController.cs" />
+    <Compile Include="MailMessageViewController.designer.cs">
+      <DependentUpon>MailMessageViewController.cs</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <Compile Include="ComposeViewController.cs" />
+    <Compile Include="ComposeViewController.designer.cs">
+      <DependentUpon>ComposeViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainTabBarController.cs" />
+    <Compile Include="MainTabBarController.designer.cs">
+      <DependentUpon>MainTabBarController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventTableCell.cs" />
+    <Compile Include="EventTableCell.designer.cs">
+      <DependentUpon>EventTableCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventEditorViewController.cs" />
+    <Compile Include="EventEditorViewController.designer.cs">
+      <DependentUpon>EventEditorViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FriendPickerViewController.cs" />
+    <Compile Include="FriendPickerViewController.designer.cs">
+      <DependentUpon>FriendPickerViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventDetailsViewController.cs" />
+    <Compile Include="EventDetailsViewController.designer.cs">
+      <DependentUpon>EventDetailsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationViewController.cs" />
+    <Compile Include="NotificationViewController.designer.cs">
+      <DependentUpon>NotificationViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventInvitationTableCell.cs" />
+    <Compile Include="EventInvitationTableCell.designer.cs">
+      <DependentUpon>EventInvitationTableCell.cs</DependentUpon>
+    </Compile>
+    <InterfaceDefinition Include="Resources\Base.lproj\MainStoryboard~.storyboard" />
+    <Compile Include="AttendeeListViewController.cs" />
+    <Compile Include="AttendeeListViewController.designer.cs">
+      <DependentUpon>AttendeeListViewController.cs</DependentUpon>
+    </Compile>
+    <BundleResource Include="Resources\BlurBackground.png" />
+    <BundleResource Include="Resources\StarStable-logo-600.png" />
+    <Compile Include="NewsViewController.cs" />
+    <Compile Include="NewsViewController.designer.cs">
+      <DependentUpon>NewsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewsTableCell.cs" />
+    <Compile Include="NewsTableCell.designer.cs">
+      <DependentUpon>NewsTableCell.cs</DependentUpon>
+    </Compile>
+    <BundleResource Include="Resources\cog1.png" />
+    <BundleResource Include="Resources\mail%4050.png" />
+    <BundleResource Include="Resources\pinkcircle%4050.png" />
+    <BundleResource Include="Resources\cog%40251.png" />
+    <BundleResource Include="Resources\bluelogo.png" />
+    <Compile Include="SettingsViewController.cs" />
+    <Compile Include="SettingsViewController.designer.cs">
+      <DependentUpon>SettingsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebViewController.cs" />
+    <Compile Include="WebViewController.designer.cs">
+      <DependentUpon>WebViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="webviewOne.cs" />
+    <Compile Include="webviewOne.designer.cs">
+      <DependentUpon>webviewOne.cs</DependentUpon>
+    </Compile>
+    <InterfaceDefinition Include="Base.lproj\MainStoryboard.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SplashViewController.cs" />
+    <Compile Include="SplashViewController.designer.cs">
+      <DependentUpon>SplashViewController.cs</DependentUpon>
+    </Compile>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoTouch.FacebookConnect">
+      <HintPath>..\Components\facebookios-3.22.0\lib\ios-unified\MonoTouch.FacebookConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="GoogleAnalytics.iOS">
+      <HintPath>..\Components\googleanalytics-3.0.10.2\lib\ios-unified\GoogleAnalytics.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Json" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ModernHttpClient">
+      <HintPath>..\packages\modernhttpclient.2.4.2\lib\Xamarin.iOS10\ModernHttpClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\StarStableLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyStarStable.Common\MyStarStable.Common.csproj">
+      <Project>{2C037BD2-B005-4531-A3B4-B1ABD066D293}</Project>
+      <Name>MyStarStable.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\error%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\error_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\error_7%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\success%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\success_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\BTProgressHUD\success_7%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HorseIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\HorseIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\datecell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\leftArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\leftArrow%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\rightArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\rightArrow%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\today.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\today%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FMCalendar\topbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\MailTab%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\MailTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bell%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Date%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\en.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\sv.lproj\Localizable.strings" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\toolbar_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\toolbar_cancel%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\toolbar_checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\toolbar_checkmark%402x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <XamarinComponentReference Include="facebookios">
+      <Version>3.22.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="googleanalytics">
+      <Version>3.0.10.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="json.net">
+      <Version>6.0.8.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Friends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Friends%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base.lproj\" />
+  </ItemGroup>
+</Project>

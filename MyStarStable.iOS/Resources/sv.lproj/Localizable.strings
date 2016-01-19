@@ -1,0 +1,128 @@
+"APP/YES" = "Yes";
+"APP/NO" = "No";
+
+"APP/CAL/ALL_DAY" = "all-day";
+"APP/CAL/END_DAY" = "ends";
+"APP/CAL/START_DAY" = "starts";
+"APP/CAL/NEED_TITLE" = "Enter a title to continue.";
+"APP/CAL/TITLE_TOO_LONG" = "Title too long.";
+"APP/CAL/DESC_TOO_LONG" = "Description too long.";
+"APP/CAL/START_BEFORE_END" = "Start date must be before end date.";
+"APP/CAL/PICK_END_DATE" = "Pick end date.";
+"APP/CAL/PICK_START_DATE" = "Pick start date.";
+"APP/CAL/ADD_SUCCESS" = "Event added successfully.";
+"APP/CAL/EDIT_SUCCESS" = "Event changed successfully.";
+"APP/CAL/ADDING_EVENT" = "Adding event...";
+"APP/CAL/EDITING_EVENT" = "Saving event...";
+"APP/CAL/CRISP_FILTERED" = "Your event contains inappropriate content and was filtered. Change your event title or description and try again.";
+"APP/CAL/LOADING_EVENTS" = "Loading events...";
+"APP/CAL/CONFIRM_ACCEPT_INVITE" = "Accept invitation and add event to calendar?";
+"APP/CAL/CONFIRM_REJECT_INVITE" = "Reject invitation?";
+"APP/CAL/CONFIRM_DELETE" = "Remove event?";
+"APP/CAL/EVENT_INVITE_CELL_TITLE" = "Invitation to event at {0}";
+"APP/CAL/FETCH_PENDING_FAILED" = "Could not get events: ";
+"APP/CAL/DELETE_FAILED" = "Failed: ";
+"APP/CAL/DELETING" = "Deleting...";
+"APP/CAL/DELETE_SUCCESS" = "Event deleted successfully.";
+"APP/CAL/ATTENDEE_ACCEPTED" = "Accepted";
+"APP/CAL/ATTENDEE_REJECTED" = "Declined";
+"APP/CAL/ATTENDEE_PENDING" = "Pending";
+"APP/CAL/ATTENDEE_OWNER" = "Owner";
+
+"APP/FACEBOOK/ERRORS/RELOGIN" = "Your session has expired, please try to log in again.";
+"APP/FACEBOOK/ERRORS/GENERAL" = "Unknown error. Please try again.";
+"APP/FACEBOOK/ERRORS/NEED_EMAIL" = "To sign in with Facebook, please grant the email address permission when requested.";
+
+"APP/MAIL/REPLY_PREFIX" = "RE: ";
+"APP/MAIL/SEND_FAILED" = "Failed: ";
+"APP/MAIL/SEND_SUCCESS" = "Mail has been sent.";
+"APP/MAIL/FETCH_FAILED" = "Could not get mail: ";
+"APP/MAIL/DELETE_FAILED" = "Failed: ";
+"APP/MAIL/NEED_VALID_CHAR" = "Enter a valid character name to continue.";
+"APP/MAIL/NEED_SUBJECT" = "Subject is required to continue.";
+"APP/MAIL/NEED_TEXT" = "Message text is required to continue.";
+"APP/MAIL/DELETING" = "Deleting...";
+"APP/MAIL/SENDING" = "Sending...";
+"APP/MAIL/CRISP_FILTERED" = "Your message contains inappropriate content and was filtered. Change your message and try again.";
+"APP/MAIL/CONFIRM_DELETE" = "Remove mail?";
+"APP/MAIL/SENT_FROM" = "Skickat från min ";
+
+"APP/LOGIN/NEED_USER_PASS" = "Enter your account details to continue.";
+"APP/LOGIN/LOGGING_IN" = "Signing in...";
+"APP/LOGIN/LOGIN_FAILED" = "Could not sign in: ";
+"APP/LOGIN/LOGIN_FAILED_CHARACTER" = "You need to play the game at least once before using this app. Please create your character and then try again.";
+"APP/LOGIN/NEED_LINK_PASSWORD" = "Enter your Star Stable password to link your account. You only need to do this once.";
+"APP/LOGIN/CONFIRM_SIGNOUT" = "Are you sure you want to sign out?";
+"APP/LOGIN/REGISTER/LINK" = "https://www.starstable.com/se/register";
+"APP/LOGIN/REGISTER/DESCRIPTION" = "Här är den svenska texten typ...";
+"APP/LOGIN/REGISTER/BUTTONTEXT" = "Registrera här";
+
+"APP/ALERT/TITLE/NEED_PASSWORD" = "Password";
+"APP/ALERT/TITLE/ERROR" = "Error";
+"APP/ALERT/TITLE/SIGN_OUT" = "Sign out";
+"APP/ALERT/TITLE/CONFIRM" = "Confirm";
+"APP/ALERT/BUTTON/OK" = "OK";
+"APP/ALERT/BUTTON/CANCEL" = "Cancel";
+
+"API/PUSH/NEW_MAIL" = "%2$@ has new mail from %1$@.";
+"API/PUSH/NEW_CLUB_EVENT" = "A new club event has been added to %2$@'s calendar by %1$@.";
+"API/PUSH/NEW_EVENT_ATTENDEE" = "%2$@ has been invited to an event by %1$@.";
+
+"API/ERRORS/INVALID_PARAMETERS" = "Invalid parameters.";
+"API/ERRORS/INVALID_PARAMETER_LENGTH" = "Invalid parameter length.";
+"API/ERRORS/LANGUAGE_NOT_FOUND" = "Language not found.";
+
+"API/ERRORS/LOGIN_FAILED" = "Login failed.";
+"API/ERRORS/FACEBOOK_LOGIN_FAILED" = "Facebook login failed.";
+"API/ERRORS/PROGRAMMING_ERROR" = "Programming error.";
+"API/ERRORS/TOKEN_NOT_CREATED" = "Could not create access token.";
+"API/ERRORS/CUSTOMER_NOT_FOUND" = "Customer data not found.";
+"API/ERRORS/CHARACTER_NOT_FOUND" = "Character data not found.";
+"API/ERRORS/INVALID_CLUB" = "Invalid club.";
+"API/ERRORS/CLUB_RANK_LOW" = "Your club rank is not high enough.";
+
+"API/ERRORS/REGION/NOT_FOUND" = "Invalid region.";
+"API/ERRORS/REGION/SERVER_NOT_FOUND" = "Game server data not found.";
+
+"API/ERRORS/MAIL/NOT_FOUND" = "The specified mail could not be found.";
+"API/ERRORS/MAIL/COULD_NOT_DELETE" = "Could not delete the specified mail.";
+"API/ERRORS/MAIL/COULD_NOT_MARK_READ" = "Could not mark specified mail as read.";
+"API/ERRORS/MAIL/INVALID_RECIPIENT" = "Invalid recipient.";
+"API/ERRORS/MAIL/RECIPIENT_NOT_FOUND" = "Recipient not found.";
+"API/ERRORS/MAIL/SEND_FAILED" = "Sending of mail failed.";
+"API/ERRORS/MAIL/RECIPIENT_IGNORE" = "The recipient does not want to receive messages from you.";
+"API/ERRORS/MAIL/TRANSLATE_FAIL" = "Message translation failed.";
+"API/ERRORS/MAIL/RECIPIENT_MAILBOX_FULL" = "Recipient mailbox is full.";
+"API/ERRORS/MAIL/NO_DELETE_ATTACHMENT" = "Can not delete mails that contain attachments.";
+"API/ERRORS/MAIL/RECIPIENT_IS_SELF" = "You can not send mails to yourself.";
+
+
+"API/ERRORS/FACEBOOK/TOKEN_NOT_OURS" = "Facebook token does not belong to this app.";
+"API/ERRORS/FACEBOOK/NOT_VERIFIED" = "Facebook account not verified";
+"API/ERRORS/FACEBOOK/INVALID_ID" = "Invalid Facebook ID.";
+"API/ERRORS/FACEBOOK/NO_MAIL" = "Facebook account does not have an email set.";
+"API/ERRORS/FACEBOOK/GRAPH_INVALID_DATA" = "Invalid data in Facebook graph user.";
+"API/ERRORS/FACEBOOK/GRAPH_INVALID_DATA" = "Missing data in Facebook graph user.";
+
+"API/ERRORS/CRISP_API_ERROR" = "Crisp API failure.";
+
+"API/ERRORS/CAL/INVALID_DATE" = "Specified date is invalid.";
+"API/ERRORS/CAL/INVALID_ATTENDEES" = "Specified attendees are invalid.";
+"API/ERRORS/CAL/CLUB_OR_ATTENDEES" = "Either club event or attendees must be selected.";
+"API/ERRORS/CAL/EVENT_NOT_FOUND" = "Event not found.";
+"API/ERRORS/CAL/EDIT_NOT_ALLOWED" = "You are not allowed to edit this event.";
+"API/ERRORS/CAL/UPDATE_FAILED" = "Event update failed.";
+"API/ERRORS/CAL/NOT_ATTENDEE" = "You are not an attendee of this event.";
+"API/ERRORS/CAL/DELETE_NOT_ALLOWED" = "You are not allowed to delete this event.";
+"API/ERRORS/CAL/COULD_NOT_DELETE" = "Could not delete the specified event.";
+
+"APP/NEWS/KIMONOLABS/URL" = "https://www.kimonolabs.com/api/egchvb7w?apikey=f1542ed5fbce52d81006f702bd1d1ef6";
+
+"APP/OPTIONS/EDITPROFILE/URL" = "https://www.starstable.com/se/myaccount_editprofile";
+"APP/OPTIONS/CHANGEPASSWORD/URL" = "https://www.starstable.com/se/myaccount_editprofile";
+"APP/OPTIONS/BLOG/URL" = "https://www.starstable.com/se/news";
+"APP/OPTIONS/PRIVACYPOLICY/URL" = "https://www.starstable.com/se/privacy";
+"APP/OPTIONS/EDITPROFILE/LABEL" = "Redigera profil";
+"APP/OPTIONS/CHANGEPASSWORD/LABEL" = "Byt lösenord";
+"APP/OPTIONS/BLOG/LABEL" = "Blogg";
+"APP/OPTIONS/PRIVACYPOLICY/LABEL" = "Intigritetspolicy";
